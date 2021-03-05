@@ -1,0 +1,15 @@
+Starting audit...
+[ERROR] C:\Users\Mihai\IdeaProjects\proiect-etapa2-energy-system\.\src\dataprocessing\Contracts.java:30:19: '10000000' is a magic number. [MagicNumber]
+[ERROR] C:\Users\Mihai\IdeaProjects\proiect-etapa2-energy-system\.\src\dataprocessing\FormulasCompute.java:31:52: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\Mihai\IdeaProjects\proiect-etapa2-energy-system\.\src\dataprocessing\FormulasCompute.java:55:44: '0.2' is a magic number. [MagicNumber]
+[ERROR] C:\Users\Mihai\IdeaProjects\proiect-etapa2-energy-system\.\src\dataprocessing\Payments.java:20:26: '1.2' is a magic number. [MagicNumber]
+[ERROR] C:\Users\Mihai\IdeaProjects\proiect-etapa2-energy-system\.\src\dataprocessing\Solve.java:56:17: 'updates' hides a field. [HiddenField]
+[ERROR] C:\Users\Mihai\IdeaProjects\proiect-etapa2-energy-system\.\src\fileio\InputLoader.java:32:5: Method length is 163 lines (max allowed is 150). [MethodLength]
+[ERROR] C:\Users\Mihai\IdeaProjects\proiect-etapa2-energy-system\.\src\fileio\MonthlyStats.java:8:15: Variable 'month' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] C:\Users\Mihai\IdeaProjects\proiect-etapa2-energy-system\.\src\fileio\MonthlyStats.java:9:25: Variable 'distributorsIds' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] C:\Users\Mihai\IdeaProjects\proiect-etapa2-energy-system\.\src\fileio\ProducerInputData.java:21:25: Variable 'contracts' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] C:\Users\Mihai\IdeaProjects\proiect-etapa2-energy-system\.\src\fileio\ProducerInputData.java:22:30: Variable 'monthlyStats' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] C:\Users\Mihai\IdeaProjects\proiect-etapa2-energy-system\.\src\fileio\ProducerInputData.java:41:52: 'monthlyStats' hides a field. [HiddenField]
+[ERROR] C:\Users\Mihai\IdeaProjects\proiect-etapa2-energy-system\.\src\Main.java:3:14: Using the '.*' form of import should be avoided - fileio.*. [AvoidStarImport]
+Audit done.
+Checkstyle ends with 12 errors.
